@@ -94,8 +94,8 @@
             {
               "input": "Id",
               "col": "Elevation",
-              "num": 0,
-              "operator": "contains"
+              "num": 500,
+              "operator": "\u003c  [number]"
             }
           ]
         },
@@ -104,7 +104,7 @@
             "columns": [
               {
                 "name": "Id",
-                "type": "string"
+                "type": "int"
               },
               {
                 "name": "Elevation",
