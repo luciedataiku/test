@@ -1,0 +1,34 @@
+{
+  "pages": [
+    {
+      "id": "ZutYGWq",
+      "grid": {
+        "tiles": []
+      },
+      "showTitle": false
+    }
+  ],
+  "owner": "lucie.luneau@dataiku.com",
+  "listed": true,
+  "name": "tree_coverage\u0027s default dashboard",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "lucie.luneau@dataiku.com"
+    },
+    "lastModifiedOn": 1646765121511
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "lucie.luneau@dataiku.com"
+    },
+    "lastModifiedOn": 1646765121511
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
