@@ -94,7 +94,7 @@
             {
               "input": "Id",
               "col": "Elevation",
-              "num": 500,
+              "num": 800,
               "operator": "\u003c  [number]"
             }
           ]
