@@ -10,7 +10,24 @@
   "projectAppType": "REGULAR",
   "owner": "lucie.luneau@dataiku.com",
   "permissionsVersion": "V2",
-  "permissions": [],
+  "permissions": [
+    {
+      "group": "space_administrators",
+      "admin": true,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "shareToWorkspaces": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    }
+  ],
   "additionalDashboardUsers": {
     "users": []
   },
@@ -180,6 +197,13 @@
     "displayedState": {
       "checks": []
     }
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "api:7F4E4WDT1GYSY66B"
+    },
+    "lastModifiedOn": 1646765219145
   },
   "creationTag": {
     "versionNumber": 0,
