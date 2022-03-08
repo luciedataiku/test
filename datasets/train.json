@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "lucie.luneau@dataiku.com"
     },
-    "lastModifiedOn": 1646765434939
+    "lastModifiedOn": 1646765540328
   },
   "creationTag": {
     "versionNumber": 0,
@@ -102,7 +102,7 @@
     "columns": [
       {
         "name": "Id",
-        "type": "string"
+        "type": "int"
       },
       {
         "name": "Elevation",
