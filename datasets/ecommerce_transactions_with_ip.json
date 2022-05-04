@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1651699740202
+    "lastModifiedOn": 1651699785111
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,8 +85,45 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "PurchaseDate",
+        "type": "string"
+      },
+      {
+        "name": "ItemDescription",
+        "type": "string"
+      },
+      {
+        "name": "Quantity",
+        "type": "bigint"
+      },
+      {
+        "name": "UnitPrice",
+        "type": "double"
+      },
+      {
+        "name": "OrderTotal",
+        "type": "double"
+      },
+      {
+        "name": "CustomerName",
+        "type": "string"
+      },
+      {
+        "name": "CustomerAge",
+        "type": "bigint"
+      },
+      {
+        "name": "MerchantURL",
+        "type": "string"
+      },
+      {
+        "name": "MerchantIP",
+        "type": "string"
+      }
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
