@@ -5,7 +5,7 @@ import socket
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Read recipe inputs
-ecommerce_transactions = dataiku.Dataset("ecommerce_transactions")
+ecommerce_transactions = dataiku.Dataset("ecommerce_transactions__1_")
 df = ecommerce_transactions.get_dataframe()
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
