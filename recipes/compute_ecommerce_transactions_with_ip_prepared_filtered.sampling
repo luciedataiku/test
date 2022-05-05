@@ -1,0 +1,21 @@
+{
+  "uiData": {
+    "mode": "\u0026\u0026",
+    "conditions": [
+      {
+        "input": "Quantity",
+        "col": "PurchaseHour",
+        "num": 3,
+        "operator": "\u003e\u003d [number]"
+      }
+    ]
+  },
+  "$status": {
+    "validated": true,
+    "fullyTranslated": false,
+    "ok": false,
+    "message": "Filter expression is invalid"
+  },
+  "distinct": false,
+  "enabled": true
+}
