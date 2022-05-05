@@ -3,7 +3,7 @@ import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
 
-from to_xls import dataframe_to_xlsx
+from to_xlsx import dataframe_to_xlsx
 
 # Read recipe inputs
 ecommerce_transactions_with_ip_prepared = dataiku.Dataset("ecommerce_transactions_with_ip_prepared")
