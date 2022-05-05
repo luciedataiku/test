@@ -19,5 +19,5 @@ test_df = ecommerce_transactions_with_ip_prepared_df # For this sample code, sim
 
 # Write recipe outputs
 test = dataiku.Dataset("test")
-dataframe_to_xlsx(test, 'order_scatter_plots', 'test')
+
 
