@@ -123,7 +123,6 @@
     }
   },
   "name": "Code_demo",
-  "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -179,11 +178,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1652102813727
+    "lastModifiedOn": 1652102876109
   },
   "creationTag": {
     "versionNumber": 0,
@@ -193,7 +192,9 @@
     "lastModifiedOn": 1651699539385
   },
   "shortDesc": "The project *Code_demo* was created by Administrator on May 04th 2022",
-  "tags": [],
+  "tags": [
+    "duplicated"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": [
