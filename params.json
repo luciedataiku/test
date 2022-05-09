@@ -122,7 +122,7 @@
       }
     }
   },
-  "name": "Code_demo",
+  "name": "Code_demo (dev)",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -178,11 +178,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 14,
+    "versionNumber": 15,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1652119652424
+    "lastModifiedOn": 1652119655671
   },
   "creationTag": {
     "versionNumber": 0,
@@ -191,7 +191,7 @@
     },
     "lastModifiedOn": 1651699539385
   },
-  "shortDesc": "The project *Code_demo* was created by Administrator on May 04th 2022",
+  "shortDesc": "The project *Code_demo* was created by Administrator on May 04th 2022\nThe project *CODE_DEMO_DEV* was copied from *CODE_DEMO* by Administrator on May 09th 2022",
   "tags": [
     "duplicated"
   ],
