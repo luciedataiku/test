@@ -8,6 +8,33 @@
   },
   "projectType": "REGULAR",
   "projectAppType": "REGULAR",
+  "hasSetupSection": false,
+  "bundleExporterSettings": {
+    "exportOptions": {
+      "exportUploads": false,
+      "exportManagedFS": false,
+      "exportAnalysisModels": false,
+      "exportSavedModels": false,
+      "exportManagedFolders": false,
+      "exportModelEvaluationStores": false,
+      "exportProjectResources": true,
+      "exportLabelingTasks": false,
+      "exportAllInputDatasets": false,
+      "exportAllDatasets": false,
+      "exportAllInputManagedFolders": false,
+      "exportGitRepository": false,
+      "exportInsightsData": false,
+      "useManualPluginsInfo": false,
+      "includedDatasetsData": [],
+      "includedSavedModels": [],
+      "includedModelEvaluationStores": [],
+      "includedManagedFolders": [],
+      "includedCodeStudios": [],
+      "includedLabelingTasks": [],
+      "shareAllInputDatasets": false,
+      "exportForeignObjectsReferences": true
+    }
+  },
   "owner": "lucie.luneau@dataiku.com",
   "permissionsVersion": "V2",
   "permissions": [
@@ -49,6 +76,9 @@
       "mergeSqlPipelines": false,
       "pruneBeforeSqlPipelines": true
     },
+    "sharingRequestsEnabled": "INHERIT",
+    "limitedVisibilityEnabled": "INHERIT",
+    "accessRequestsEnabled": "INHERIT",
     "limitsSettings": {
       "memSampleBytes": {
         "soft": -1,
@@ -140,7 +170,8 @@
         },
         "deploymentModifier": {}
       }
-    }
+    },
+    "dkuProperties": []
   },
   "name": "tree_coverage",
   "projectStatus": "Sandbox",
@@ -199,11 +230,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
-      "login": "api:7F4E4WDT1GYSY66B"
+      "login": "lucie.luneau@dataiku.com"
     },
-    "lastModifiedOn": 1646765219145
+    "lastModifiedOn": 1667832201409
   },
   "creationTag": {
     "versionNumber": 0,
