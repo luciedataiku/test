@@ -26,7 +26,12 @@
       "exportInsightsData": false,
       "useManualPluginsInfo": false,
       "includedDatasetsData": [],
-      "includedSavedModels": [],
+      "includedSavedModels": [
+        {
+          "id": "8EU2UwyA",
+          "name": "Predict Cover_Type (multiclass)"
+        }
+      ],
       "includedModelEvaluationStores": [],
       "includedManagedFolders": [],
       "includedCodeStudios": [],
@@ -230,11 +235,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "lucie.luneau@dataiku.com"
     },
-    "lastModifiedOn": 1667832201409
+    "lastModifiedOn": 1667832221876
   },
   "creationTag": {
     "versionNumber": 0,
