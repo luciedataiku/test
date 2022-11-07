@@ -2,7 +2,15 @@
   "name": "lookup_tree_table",
   "endpoints": [
     {
-      "testQueries": [],
+      "testQueries": [
+        {
+          "q": {
+            "data": {
+              "Id": "52"
+            }
+          }
+        }
+      ],
       "lookups": [
         {
           "datasetRef": "dataset_1",
@@ -36,11 +44,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "lucie.luneau@dataiku.com"
     },
-    "lastModifiedOn": 1667831544043
+    "lastModifiedOn": 1667831922084
   },
   "creationTag": {
     "versionNumber": 0,
