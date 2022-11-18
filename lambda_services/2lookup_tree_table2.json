@@ -6,7 +6,7 @@
       "lookups": [
         {
           "datasetRef": "dataset_1",
-          "packagingType": "REFERENCED",
+          "packagingType": "BUNDLED_TOCONNECTION",
           "on": [
             {
               "resourceLookupCol": "Id"
@@ -36,11 +36,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "lucie.luneau@dataiku.com"
     },
-    "lastModifiedOn": 1668796217151
+    "lastModifiedOn": 1668796237400
   },
   "creationTag": {
     "versionNumber": 0,
