@@ -1,5 +1,13 @@
 {
-  "endpoints": [],
+  "name": "2lookup_tree_table2",
+  "endpoints": [
+    {
+      "testQueries": [],
+      "lookups": [],
+      "id": "lookup2",
+      "type": "DATASETS_LOOKUP"
+    }
+  ],
   "authMethod": "PUBLIC",
   "authRealm": {
     "queryKeys": []
@@ -10,11 +18,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "lucie.luneau@dataiku.com"
     },
-    "lastModifiedOn": 1668796150454
+    "lastModifiedOn": 1668796166773
   },
   "creationTag": {
     "versionNumber": 0,
