@@ -3,7 +3,25 @@
   "endpoints": [
     {
       "testQueries": [],
-      "lookups": [],
+      "lookups": [
+        {
+          "datasetRef": "dataset_1",
+          "packagingType": "REFERENCED",
+          "on": [
+            {
+              "resourceLookupCol": "Id"
+            }
+          ],
+          "missingLookupKeyBehavior": "IGNORE",
+          "notFoundBehavior": "IGNORE",
+          "multiMatchBehavior": "KEEP_FIRST",
+          "columnsMapping": {
+            "Elevation": "Elevation",
+            "Aspect": "Aspect",
+            "Slope": "Slope"
+          }
+        }
+      ],
       "id": "lookup2",
       "type": "DATASETS_LOOKUP"
     }
@@ -18,11 +36,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "lucie.luneau@dataiku.com"
     },
-    "lastModifiedOn": 1668796166773
+    "lastModifiedOn": 1668796217151
   },
   "creationTag": {
     "versionNumber": 0,
