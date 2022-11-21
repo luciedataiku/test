@@ -6,7 +6,7 @@
         {
           "q": {
             "data": {
-              "Apsect": "56"
+              "Id": "1"
             }
           }
         }
@@ -17,15 +17,15 @@
           "packagingType": "BUNDLED_TOCONNECTION",
           "on": [
             {
-              "resourceLookupCol": "Aspect"
+              "resourceLookupCol": "Id"
             }
           ],
           "missingLookupKeyBehavior": "IGNORE",
           "notFoundBehavior": "IGNORE",
           "multiMatchBehavior": "KEEP_FIRST",
           "columnsMapping": {
-            "Id": "Id",
             "Elevation": "Elevation",
+            "Aspect": "Aspect",
             "Slope": "Slope"
           }
         }
@@ -44,11 +44,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "lucie.luneau@dataiku.com"
     },
-    "lastModifiedOn": 1669059187493
+    "lastModifiedOn": 1669059229865
   },
   "creationTag": {
     "versionNumber": 0,
