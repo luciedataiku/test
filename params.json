@@ -180,7 +180,6 @@
     "dkuProperties": []
   },
   "name": "tree_coverage",
-  "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -236,11 +235,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "lucie.luneau@dataiku.com"
     },
-    "lastModifiedOn": 1669058217548
+    "lastModifiedOn": 1669058927032
   },
   "creationTag": {
     "versionNumber": 0,
@@ -250,7 +249,9 @@
     "lastModifiedOn": 1646765121484
   },
   "shortDesc": "The project *tree_coverage* was created by lucie.luneau on Mar 08th 2022",
-  "tags": [],
+  "tags": [
+    "duplicated"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": [
