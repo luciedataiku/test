@@ -44,11 +44,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "lucie.luneau@dataiku.com"
     },
-    "lastModifiedOn": 1669058748343
+    "lastModifiedOn": 1669058755810
   },
   "creationTag": {
     "versionNumber": 0,
