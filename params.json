@@ -179,7 +179,7 @@
     },
     "dkuProperties": []
   },
-  "name": "tree_coverage",
+  "name": "tree_coverage (test-tree-branch)",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -235,11 +235,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "lucie.luneau@dataiku.com"
     },
-    "lastModifiedOn": 1669058927032
+    "lastModifiedOn": 1669058929723
   },
   "creationTag": {
     "versionNumber": 0,
@@ -248,7 +248,7 @@
     },
     "lastModifiedOn": 1646765121484
   },
-  "shortDesc": "The project *tree_coverage* was created by lucie.luneau on Mar 08th 2022",
+  "shortDesc": "The project *tree_coverage* was created by lucie.luneau on Mar 08th 2022\nThe project *TREE_COVERAGE_TEST_TREE_BRANCH* was copied from *TREE_COVERAGE* by lucie.luneau on Nov 21st 2022",
   "tags": [
     "duplicated"
   ],
